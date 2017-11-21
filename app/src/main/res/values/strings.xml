@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StadiumFoodDelivery</string>
+    <string name="main">Main</string>
+    <string name="orders">Orders</string>
+    <string name="shoppingCart">Cart</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="order">Add to cart</string>
+    <string name="empty_cart">Корзина пуста</string>
+    <string name="login_for">Login</string>
+    <string name="login_additional">TBD</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">login</string>
+    <string name="registration">Registration</string>
+    <string name="remind_password">Remind password</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="total">Total</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main">Главная</string>
+    <string name="orders">Мои заказы</string>
+    <string name="shoppingCart">Корзина</string>
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+    <string name="about">О нас</string>
+    <string name="settings">Настройки</string>
+    <string name="empty_cart">Корзина пуста</string>
+    <string name="order">Заказать</string>
+    <string name="login_for">Войдите</string>
+    <string name="login_additional">чтобы зарабатывать баллы и получать скидки</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="log_in">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="remind_password">Напомнить пароль</string>
+    <string name="login">Вход</string>
+    <string name="menu">Меню</string>
+    <string name="total">Итого</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="0dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guideline"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/image_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/guideline"
+                    tools:src="@drawable/beer"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title_item"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/guideline"
+                    app:layout_constraintRight_toRightOf="parent"
+                    tools:text="title"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description_item"
+                    android:layout_margin="8dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintTop_toBottomOf="@+id/title_item"
+                    app:layout_constraintLeft_toRightOf="@id/guideline"
+                    app:layout_constraintRight_toRightOf="parent"
+
+                    tools:text="description"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price_item"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/colorTextPrice"
+                    app:layout_constraintTop_toBottomOf="@+id/description_item"
+                    app:layout_constraintLeft_toRightOf="@id/guideline"
+                    app:layout_constraintRight_toRightOf="parent"
+
+                    tools:text="price"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_add_to_cart"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:text="@string/order"
+                    android:gravity="center"
+                    android:layout_margin="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/price_item"
+                    app:layout_constraintLeft_toRightOf="@id/guideline"
+                    app:layout_constraintRight_toRightOf="parent"
+
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
